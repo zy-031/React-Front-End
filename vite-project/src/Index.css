@@ -1,0 +1,76 @@
+/*Header*/
+.Head {
+  background: #000000;
+  color: #ffffff;
+  padding: 15px;
+  font-size: 15px; 
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-family: Inter, sans-serif;
+}
+
+#img{
+  width: 20px;
+  height: 20px;
+  padding-left: 8px;
+}
+
+#img2{
+  width: 20px;
+  height: 20px;
+  padding-left: 5px;
+}
+.button{
+  padding-left: 750px;
+}
+
+#button{
+  padding: 10px 20px; 
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #ffffff; 
+  color: #000000; 
+  border: none; 
+  border-radius: 5px;
+  right: 20px;
+}
+
+/*form*/
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(rgba(43, 42, 42, 0.75),rgba(31, 30, 30, 0.75)),url('./assets/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.form-container {
+  margin-top: 120px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+  border-radius: 10px;
+  padding: 30px 40px;
+}
+
+#input-field{
+  width:80px;
+  font-weight: bold;
+  border-color: #000000;
+  border-width: 3px;
+}
+
+#input-field2{
+  border-color: #000000;
+  border-width: 3px;
+}
+
+#button2{
+  width: 250px;
+  height: 50px;
+}
